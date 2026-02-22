@@ -11,13 +11,14 @@ Reflected XSS
 Search Parameter
 
 ## Injection Point
-URL
+Search Box
 
 ## Payload Used
-"><svg onload=alert(1)>
+<script>alert(1)</script>
 
 ## How It Worked
-I broke out of the attribute using " and injected an SVG tag with an onload event.
+I broke out of the attribute using " and closed the attribute bu using >  and injected an <script> tag
 
-## Screenshot
-(Add screenshot here)
+
+
+
