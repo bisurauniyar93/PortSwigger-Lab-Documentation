@@ -14,7 +14,7 @@ Search box
 Comment Box
 
 ## Payload Used
-"><svg onload=alert(1)>
+"><svgonload=alert(1)>
 
 ## How It Worked
 I entered a random text in the search box and came ot find that the input is taken but shows and errorbut the input is shown on the page- that means injection is possible.I moved to inspect element and find my input landing in the <img src > and " ",where it lies under An Html tag and attributes respectively.
